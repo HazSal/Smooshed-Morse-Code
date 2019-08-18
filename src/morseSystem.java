@@ -16,7 +16,7 @@ public class morseSystem {
 						
 					}
 					else if(option==2) { 
-						System.out.println("N/A: ");
+						encoder.encodeList();
 						
 					}
 					
