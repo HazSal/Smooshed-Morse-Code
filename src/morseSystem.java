@@ -5,28 +5,27 @@ public class morseSystem {
 
 	public void runSystem() {
 		
-			// Creates all objects in the DB
 			
 			do {
 				menu.clearScreen();
 				menu.menuMain(); //display main menu options
 				option = smorse.sc.nextInt();
 				
-					if(option==1) { // Weekly Sessions by Theater
+					if(option==1) { // Encode characters to morse(only the english alphabet is implemented)
 						encoder.encode();
 						
 					}
-					else if(option==2) { //Search For Movie Session by Cineplex Theater
-						System.out.println("Enter Name of Theater: ");
+					else if(option==2) { 
+						System.out.println("N/A: ");
 						
 					}
 					
-					else if(option==3) {  //Search For Movie Session by Movie Title
-						System.out.println("Enter Title of Movie: ");
+					else if(option==3) {  
+						System.out.println("N/A: ");
 					}
 					
-					else if(option==4) { //Bookings Menu
-						
+					else if(option==4) { 
+						System.out.println("N/A: ");
 					}
 					
 					else
