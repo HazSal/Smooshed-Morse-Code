@@ -21,7 +21,7 @@ public class morseSystem {
 					}
 					
 					else if(option==3) {  
-						System.out.println("N/A: ");
+						decoder.decodeMorsePresets();
 					}
 					
 					else if(option==4) { 

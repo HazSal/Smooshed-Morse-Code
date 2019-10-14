@@ -5,7 +5,7 @@ final class menu {
 		System .out.println("/////// -  sMorse -  ///////");
 		System.out.println("1. Encode a word using morse.");
 		System.out.println("2. Encode a word list."); 
-		System.out.println("3. N/A");
+		System.out.println("3. Run Encoding\\Decoding presets");
 		System.out.println("4. N/A");
 		System.out.println("5. Exit sMorse");
 		System.out.print("Enter choice: ");

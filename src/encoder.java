@@ -1,4 +1,4 @@
-import java.text.DecimalFormat;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -35,9 +35,10 @@ public class encoder {
 			encoded ="";
 			result = true;
 		}while(result == false);
-		
 	}
+	
 	public static void encodeList(){
+		//final long startTime = System.currentTimeMillis();
 		String[] msg;
 		String input,encoded=null;
 		int z = 0;
@@ -83,12 +84,15 @@ public class encoder {
 			}
 			System.out.printf("The amount of dots in the list are: %,d %n",  dotDashCount[0]);
 			System.out.printf("The amount of dashes in the list are: %,d %n",  dotDashCount[1]);
+			//final long endTime = System.currentTimeMillis();
+			//System.out.println("Total execution time: " + (endTime - startTime));
 			result = true;
 		}while(result == false);
 		
 	}
 	
 	public static int[] morseCount(String morse){
+		//used to count the total amount of dots and dashes of the output
 		String[] morseSplit = morse.split("");
 		int[] dotDashCount = new int[2];
 		for(int i = 0;i<=morseSplit.length-1;i++){
