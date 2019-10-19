@@ -16,7 +16,7 @@ public class decoder {
 
 		
 		ArrayList<String> enable1List=morseDB.getWordList();
-		
+		System.out.println("Calculating presets...");
 		do{
 
 	    	/*grabs the input and splits it up into individual characters.
@@ -65,7 +65,7 @@ public class decoder {
 					pCount = 0;
 			}			
 			final long endTime = System.currentTimeMillis();
-			System.out.println("Total execution time: " + (endTime - startTime));
+			System.out.println("Total execution time: " + (endTime - startTime)/1000 + " seconds.");
 			result = true;
 		}while(result == false);
 		
